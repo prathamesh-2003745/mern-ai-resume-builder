@@ -30,3 +30,16 @@ npm run dev
 cd frontend
 npm install
 npm run dev
+
+# MERN AI Resume Builder
+
+🌐 **Live Demo (Coming Soon)**
+
+📦 **Folder Structure**
+
+```plaintext
+mern-ai-resume-builder/
+│
+├── backend/
+├── frontend/
+└── README.md
