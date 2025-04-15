@@ -2,13 +2,19 @@
 
 A powerful AI-powered resume builder built with the MERN stack (MongoDB, Express, React, Node.js) using Gemini API. Select from multiple modern templates and instantly generate job-ready resumes.
 
-## 🔥 Features
+📦 Features
 
-- Choose from 8+ professional resume templates
-- Gemini AI integration to auto-generate resume content
-- Built with React (frontend) & Node/Express (backend)
-- Share & Download resumes
-- Clean and responsive UI
+🔐 User Authentication (Register/Login)
+
+🎨 Multiple Resume Templates
+
+🤖 AI-Powered Resume Generation (Gemini)
+
+📥 Download and 📤 Share options
+
+💾 Save & Manage Resume History
+
+⚡ Fast, Responsive & Clean UI
 
 ## 🚀 Tech Stack
 
