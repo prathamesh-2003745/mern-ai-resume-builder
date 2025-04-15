@@ -1,0 +1,15 @@
+# Node modules ignore
+frontend/node_modules/
+backend/node_modules/
+
+# Env files ignore
+frontend/.env
+backend/.env
+
+# Build files
+frontend/build/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #e0ccff, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px 60px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* 👈 Added smooth transition */
+}
+
+.login-btn {
+  background: transparent;
+  color: black;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.login-btn:hover {
+  background-color: #dcdcdc;  /* Soft grey background on hover */
+  color: #3f59ff;             /* Blue text on hover */
+}
+
+.get-started-btn {
+  background-color: #3f59ff;
+  color: white;
+  border-radius: 999px; /* 👈 Fully rounded pill shape */
+  font-weight: bold;
+  padding: 10px 24px; /* 👈 Balanced spacing */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* 👈 Smooth hover */
+  border: none;
+}
+
+.get-started-btn:hover {
+  background-color: #2e46cc;  /* Darker blue on hover */
+  transform: scale(1.03);     /* Slight bounce (doesn't affect layout) */
+}
+
+.hero-section {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-section h1 span {
+  color: #3f59ff;
+}
+
+.hero-section p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #444;
+}
+
+.cta-buttons {
+  margin-top: 30px;
+}
+
+.cta-buttons button {
+  margin: 10px;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+}
+
+.learn-more-btn {
+  background-color: #eee;
+}
+
+.cards-section {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 250px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 💡 Smooth hover effect */
+}
+
+
+.card:hover {
+  transform: translateY(-10px); /* 🪄 Slight lift on hover */
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2); /* ✨ Deeper shadow for pop effect */
+}

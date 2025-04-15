@@ -1,0 +1,30 @@
+.template-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.template-card:hover {
+  transform: scale(1.03);
+}
+
+.template-image {
+  width: 100%;
+  height: 250px; /* fix height for equal card size */
+  object-fit: contain; /* ensures clarity, keeps proportion */
+  image-rendering: crisp-edges; /* sharp edges for pixel-based images */
+   /* -webkit-transform: translateZ(0); fixes blur in some browsers
+  backface-visibility: hidden;
+  border-bottom: 1px solid #eee; */
+}
+
+.template-name {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}

@@ -1,0 +1,150 @@
+.dashboard {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #e6ccff, #ffffff);
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header h1 {
+  font-size: 38px;
+  text-align: center;
+  font-weight: bold;
+  flex: 1;
+  padding-top: 30px;
+}
+
+.logout-btn {
+  background-color: blue;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.template-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.template-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.template-card:hover {
+  transform: scale(1.02);
+}
+
+.template-card img {
+  width: 100%;
+  max-height: 130px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  color: red;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 12px;
+  background-color: purple;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.resume-preview {
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.resume-actions button {
+  padding: 12px 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-actions button:hover {
+  background-color: #5e2b91;
+}
