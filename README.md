@@ -2,6 +2,20 @@
 
 A powerful AI-powered resume builder built with the MERN stack (MongoDB, Express, React, Node.js) using Gemini API. Select from multiple modern templates and instantly generate job-ready resumes.
 
+
+## MERN AI Resume Builder
+
+🌐 **Live Demo (Coming Soon)**
+
+📦 **Folder Structure**
+
+```plaintext
+mern-ai-resume-builder/
+│
+├── backend/
+├── frontend/
+└── README.md
+
 📦 Features
 
 🔐 User Authentication (Register/Login)
