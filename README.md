@@ -1,65 +1,65 @@
-# MERN AI Resume Builder ✨
+# ✨ MERN AI Resume Builder
 
-A powerful AI-powered resume builder built with the MERN stack (MongoDB, Express, React, Node.js) using Gemini API. Select from multiple modern templates and instantly generate job-ready resumes.
+A powerful AI-powered resume builder built with the **MERN stack (MongoDB, Express, React, Node.js)** using **Gemini API**. Select from multiple modern templates and instantly generate job-ready resumes with ease.
 
+---
 
-## MERN AI Resume Builder
+## 🔥 Features
 
-🌐 **Live Demo (Coming Soon)**
+- 🎨 Choose from 8+ professional resume templates
+- 🤖 Gemini AI integration to auto-generate resume content
+- ⚛️ Built with React (frontend) & Node/Express (backend)
+- 📤 Share & 📥 Download resumes instantly
+- 🖥️ Clean, fast, and responsive UI
 
-📦 **Folder Structure**
+---
+
+## 🚀 Tech Stack
+
+- ⚛️ React (Vite)
+- 🖥️ Node.js + Express.js
+- 🧠 Gemini API (Google)
+- 💾 MongoDB (Mongoose)
+- 🎨 CSS
+
+---
+
+## 📂 Folder Structure
 
 ```plaintext
 mern-ai-resume-builder/
 │
-├── backend/
-├── frontend/
-└── README.md
+├── backend/          # Express + MongoDB backend with routes, models, controllers
+├── frontend/         # React frontend with templates and UI
+└── README.md         # This file 😎
 
-📦 Features
 
-🔐 User Authentication (Register/Login)
+🛠️ How to Run Locally
 
-🎨 Multiple Resume Templates
-
-🤖 AI-Powered Resume Generation (Gemini)
-
-📥 Download and 📤 Share options
-
-💾 Save & Manage Resume History
-
-⚡ Fast, Responsive & Clean UI
-
-## 🚀 Tech Stack
-
-- React (Vite)
-- Node.js + Express.js
-- MongoDB
-- Gemini API
-- CSS
-
-## 🛠️ How to Run Locally
-
-```bash
-# Backend
+👉 Backend Setup
 cd backend
 npm install
 npm run dev
 
-# Frontend
+👉 Frontend Setup
 cd frontend
 npm install
 npm run dev
 
-## MERN AI Resume Builder
 
-🌐 **Live Demo (Coming Soon)**
+🌐 Live Demo
+Coming Soon... 🚧
 
-📦 **Folder Structure**
+🧠 Future Plans
+Add PDF export option
 
-```plaintext
-mern-ai-resume-builder/
-│
-├── backend/
-├── frontend/
-└── README.md
+Add job description to resume matching
+
+Deploy on Render / Vercel
+
+Add more AI features
+
+📫 Contact
+For queries or collaboration, reach out:
+
+📧 Email: your-querybox01@gmail.com
